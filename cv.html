@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="cvstyle.css">
+    <title>Page Title</title>
+    </head>
+<body>
+
+<div class= "container">
+    <br><br>
+    <div style= "text-align: center;">
+        <div id="result" style= "font-weight:bold; font-size: 20px;"></div>
+        <div id="address"></div>
+        <div id="phone"></div>
+        <div id="email"></div>
+        <div id="gender"></div>
+        
+    </div>
+
+    <div>
+        <div class= "h">OBJECTIVE</div>
+        <hr>
+        <ul>
+            <li>Seeking a challenging entry-level position in Sales and Marketing with considerable opportunities for growth. </li>
+        </ul>
+        <div class= "h">EDUCATION</div>
+        <hr>
+        <ul>
+            <li class ="special">ASHESI UNIVERSITY COLLEGE Accra,                                                                       
+                <div class="place">Accra, Greater Accra</div>
+                <ul><li>
+                    <div class="special">BSc. Computer Science                                                       
+                        <div class="place">Expected Date of Graduation: July 2022</div></div></li>
+                    <br>
+                    <li style="font-weight: lighter"><b>Relevant Courses:</b> Social Theory Entrepreneurship</li></ul>
+            <br>
+            <li><div class ="special">Aburi Senior High School(2018)                                              
+                <div class="place">Aburi-Akuapem, Eastern Region</div></div></li>
+        </ul>     
+    </div>
+
+    <div class= "h">ACHIEVEMENTS/AWARDS </div><hr>
+        <ul><li>Dean’s List 2004 </li></ul>
+    
+    <div class= "h">WORK EXPERIENCE </div><hr>
+        <div>
+            <div class="special">Summer Intern, ABC Limited Accra                                                                     
+                <div class="place">Kokomlemele, Greater Accra</div></div>
+            <ul>
+                <li>Prepared financial valuations and modeling for Access Bank, Nigeria 
+                    <div class ="place">July – Aug, 2007</div></li>
+                <li>Prepared 5-year financial projections for Access Bank, Nigeria</li>
+                <li>Prepared business summary for a Business Plan for funding </li>
+                <li>Prepared a seven page research report on the bank  </li>
+            </ul>
+        </div>
+        <div>
+            <div class="special">President, ARM                                                                                     
+                <div class="place"> Accra, Greater Accra </div></div>
+            <ul>
+                <li>Managed club and presided over club activities and Editorial Meetings  
+                    <div class="place">Dec. 2006 –present </div></li>
+                <li>Organized seminars involving key figures at Ashesi to dialogue on Leadership </li>
+                <li>Liaised with visiting key personalities for seminars and events </li>
+                <li>Prepared a seven page research report on the bank Increased membership</li>
+            </ul>
+        </div>
+
+        <div>
+            <div class="special">Marketing Executive, Crisps Radio, Tamale
+                <div class="place"> Gumani, Tamale Central</div></div>
+            
+            <ul>
+                <li>Assisted the Marketing Manager to expand the market share of company  
+                    <div class= "place">June – August 2005 </div></li>
+                <li>Wrote jingles, Live Presenter Mentions (LPMs) and promotional announcements</li>
+                <li>Produced an elite talk show dubbed (Excellent Talk with Excellent Personalities)  </li>
+                <li>Wrote proposals for live programs, promotions and adverts for products and companies</li>
+            </ul>
+        </div>
+
+        <div class= "h">OTHER SKILLS </div><hr>
+        <ul><li>Programming Languages (Python and Java)</li>
+            <li>Database Management System (MySQL)</li>
+            <li>Skills in Microsoft Word and Excel</li>
+            <li>Record-keeping (Financial Accounting)</li>     
+        </ul>
+
+        <div class= "h">  CO-CURRICULAR ACTIVITIES </div><hr>
+        <ul><li>Ashesi Leo Club, Ashesi University </li>
+            <li>Bowney Initiative Project, Ashesi University</li>
+            <li>Developers in Vogue</li>  
+        </ul>
+
+        <div class= "h">REFERENCES</div><hr>
+        <p>Available Upon Request</p>
+</div>
+
+
+<script>
+ document.getElementById("result").innerHTML = localStorage.getItem("name").toUpperCase();
+//  document.getElementById("gender").innerHTML = localStorage.getItem("gender");
+ document.getElementById("phone").innerHTML = localStorage.getItem("phone");
+ document.getElementById("email").innerHTML = localStorage.getItem("email");
+ document.getElementById("address").innerHTML = localStorage.getItem("address");
+</script>
+
+
+</body>
+</html>

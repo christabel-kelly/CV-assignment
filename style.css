@@ -1,0 +1,68 @@
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color:white;  
+  font-size: 25px;
+  font-weight: bold;
+}  
+.container {  
+  color:white;
+  padding: 63px;  
+  padding-bottom: 200px;
+  margin-right: 20%;
+  margin-left: 20%;
+  background-color:#35424a;
+  border-radius: 5px;
+}  
+  
+input, select, textarea{  
+  font-size: 18px;
+  padding: 16px;
+  width: 50%;
+  margin-right: 10%;
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1; 
+  float: right; 
+}  
+
+label {
+  padding: 20px;  
+  margin-right: 5%;
+  display: inline-block;  
+  border: none; 
+}
+
+input[type=text]:focus {  
+  background-color: whitesmoke;  
+  outline: none;  
+}  
+ 
+
+.regbutton, .resetbutton{
+  font-size: 18px;
+  background-color:white;
+  margin-left: 50px;
+  color: black;
+  float: right; 
+  padding: 15px 40px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight:bold;
+  margin-right: 10%;
+
+}
+
+hr {  
+  border: 1px solid white;  
+  margin-bottom: 25px;  
+}
+.regbutton:hover, .resetbutton:hover {
+  background-color: rgb(167, 163, 163);
+  
+}
+
+input:invalid {
+  box-shadow: 0 0 1px 1px black;
+}

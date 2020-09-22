@@ -1,0 +1,45 @@
+.container {  
+    color: black;
+    padding: 50px;  
+    padding-bottom: 5%;
+    margin-top: 50px;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: white;
+    border-radius: 5px;
+  } 
+
+  .special{
+    font-weight: bold; 
+    font-family: Verdana; 
+    font-size: 14px;
+
+  }
+  
+  
+  
+  body{
+     text-align:justify;
+      background-color: rgb(44, 39, 39);
+      font-family: Verdana;
+      font-size: 14px;
+  }
+  hr {  
+    border: 1px solid black;  
+
+  }
+  .h{
+      font-weight:bold;
+      font-size: 14px;
+      font-family: Verdana;
+  }
+.place{
+ margin-right: 10px; 
+ float:right; 
+ font-family:Verdana; 
+ font-size: 14px;
+}
+/* div, p, br, hr, .h, ul{
+    margin-left:20px;
+    margin-right:20px;
+} */
