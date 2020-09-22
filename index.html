@@ -9,20 +9,20 @@
     <h1 id="app" style="text-align:center;">Fill CV Profile Section</h1><hr><br>
     <form action= "cv.html" onSubmit= "return validate()" id="addForm" class="form-box" name= "form" >
         <div class="field-group">
-            <label for="first">First</label>
+            <label for="first">First Name: </label>
             <input type="text" id="first" name="f_name"  placeholder="First Name" pattern="^[A-Za-z-]{1,26}$" title="Enter only letters" required>
         </div>
         <div class="field-group">
-            <label for="middle">Middle</label>
+            <label for="middle">Middle Name: </label>
             <input type="text" id="middle" name="m_name"  placeholder="Middle Name (if any)" pattern="^[A-Za-z-]{1,26}$" title="Enter only letters">
         </div>
         <div class="field-group">
-                <label for="last">Last</label>
+                <label for="last">Last Name: </label>
                 <input type="text" id="last" name="l_name" placeholder="Last Name" pattern="^[A-Za-z-]{1,26}$" title="Enter only letters" required/>
         </div>
 
         <div >
-            <label>Gender</label>
+            <label>Gender: </label>
             <select id = "myList" name="gender" required="" style="width: 55%;">
                 <option value="" disabled selected hidden>Choose Gender</option> 
               <option value = "1" >Male</option>
@@ -32,16 +32,16 @@
         
 
         <div class="field-group">
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="number" name="phone" placeholder="Phone Number" pattern ='^[0-9]{9,15}$' title="Enter a valid phone number (9 to 15 digits)" required>
+            <label for="phone">Phone Number: </label>
+            <input type="tel" id="number" name="phone" placeholder="Phone Number" pattern ='^[0-9]{9,15}$' title="Enter a valid phone number (Numbers only, 9 - 15 digits)" required>
         </div>
 
         <div class="field-group">
-            <label for ="email">Email</label>
+            <label for ="email">Email: </label>
             <input type ="email" id="email" name="email"  placeholder="studentname@ahesi.edu.gh" required>
          </div>
          <div class="field-group">
-            <label for ="address">Address</label>
+            <label for ="address">Address: </label>
             <input type="text" id="address" name="address"  placeholder="address" required>
          </div>
          <button class="regbutton" type="reset" value="reset" >Reset</button>
