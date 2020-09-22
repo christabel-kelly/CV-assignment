@@ -5,6 +5,13 @@
 <title>Page Title</title>
 </head>
 <body>
+<script>
+    localStorage.setItem("name", "");
+    localStorage.setItem("gender", "");
+    localStorage.setItem("phone", "");
+    localStorage.setItem("email", "");
+    localStorage.setItem("address", "");
+</script>
     <div class= "container"> 
     <h1 id="app" style="text-align:center;">Fill CV Profile Section</h1><hr><br>
     <form action= "cv.html" onSubmit= "return validate()" id="addForm" class="form-box" name= "form" >
